@@ -1,0 +1,52 @@
+.track {
+  width: 100%;
+  border: 0.208vw solid #333;
+  border-radius: 0.625vw;
+  overflow: hidden;
+  margin-top: 2vw;
+}
+
+.lane {
+  position: relative;
+  height: max-content;
+  border-bottom: 0.104vw dashed #666;
+  display: flex;
+  align-items: center;
+  padding-left: 1.52vw;
+}
+
+.select {
+  background: #ffffff;
+  border: none;
+  border-radius: 0.26vw;
+  padding: 0.208vw;
+  font-size: 0.833vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+.remove {
+  background: #ff0000;
+  border: none;
+  border-radius: 0.26vw;
+  padding: 0.208vw;
+  font-size: 0.833vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+.race {
+  background: #28a745;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+
+.garageSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

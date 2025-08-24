@@ -1,0 +1,8 @@
+.car {
+  width: 3.8vw;          /* 60px */
+  margin-left: 0.521vw;    /* 10px */
+}
+
+.car:hover {
+  transform: translateX(0.521vw); /* 10px */
+}
