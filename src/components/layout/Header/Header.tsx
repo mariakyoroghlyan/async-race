@@ -15,7 +15,9 @@ const Header: React.FC = () => {
           Winners
         </NavLink>
       </nav>
-      <img className={styles.logo} src="/logo.webp" alt="Logo" />
+      <NavLink to="/">
+        <img className={styles.logo} src="/logo.webp" alt="Logo" />
+      </NavLink>
     </header>
   );
 };

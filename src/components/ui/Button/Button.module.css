@@ -2,9 +2,8 @@
   background: #ff0000;
   color: white;
   border: none;
-  padding: 0.4vw 3vw; /* was 1rem 5rem, now vw hehe */
-  border-radius: 0.417vw; /* 8px */
-  cursor: pointer;
+  padding: 0.4vw 3vw;
+  border-radius: 0.417vw;
   transition: all 0.2s ease;
   font-size: 1vw;
   text-decoration: none;
@@ -15,5 +14,5 @@
 .button:hover {
   background: #ff3b3b;
   transform: scale(1.05);
-  box-shadow: 0 0 0.521vw rgba(255, 0, 0, 0.7); /* 10px */
+  box-shadow: 0 0 0.521vw rgba(255, 0, 0, 0.7); 
 }

@@ -17,27 +17,35 @@ const Garage: React.FC = () => {
 
   return (
     <div className={styles.garageSection}>
-
-    <CarControl/>
+      <CarControl />
 
       <div className={styles.track}>
         {cars.map((carSrc, index) => (
-          <div key={index} className={styles.lane}>
-            <div className={styles.controls}>
-              <button
-                className={`${styles.btn} ${styles.select}`}
-                onClick={() => handleSelect(index + 1)}
-              >
-                Select
-              </button>
-              <button
-                className={`${styles.btn} ${styles.remove}`}
-                onClick={() => handleRemove(index + 1)}
-              >
-                Remove
-              </button>
+          <div key={index} className={styles.roadContainer}>
+            <div className={styles.lane}>
+              <div className={styles.controls}>
+                <button
+                  className={`${styles.btn} ${styles.select}`}
+                  onClick={() => handleSelect(index + 1)}
+                >
+                  Select
+                </button>
+                <button
+                  className={`${styles.btn} ${styles.remove}`}
+                  onClick={() => handleRemove(index + 1)}
+                >
+                  Remove
+                </button>
+              </div>
+
+              <div className={styles.engineControl}>
+                <button className={styles.engineStart}>A</button>
+                <button className={styles.engineStop}>B</button>
+              </div>
+
+              <Car src={carSrc} alt={`Car ${index + 1}`} />
             </div>
-            <Car src={carSrc} alt={`Car ${index + 1}`} />
+            <div className={styles.destination}></div>
           </div>
         ))}
       </div>

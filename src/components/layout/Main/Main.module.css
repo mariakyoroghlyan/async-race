@@ -5,6 +5,7 @@ body {
   background-size: cover;       /* fill screen */
   background-position: center;  /* center the image */
   background-repeat: no-repeat; /* no repeat */
+  min-height: 100dvh;
   height: 100%;
 }
 

@@ -4,7 +4,8 @@ import Header from "./components/layout/Header/Header";
 import Garage from "./pages/Garage";
 import Winners from "./pages/Winners";
 import Main from "./components/layout/Main/Main";
-
+import "./App.css";
+  
 function App() {
   return (
     <Router>

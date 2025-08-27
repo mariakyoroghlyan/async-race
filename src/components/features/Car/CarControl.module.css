@@ -34,9 +34,14 @@
 
 .backgroundReset {
   background: none;
-  border: 1px solid red;
+  border: 2px solid red;
   padding: 0.7vw;
+  color: white;
 }
+
+/* .colorSelect{
+  background: #ff0000;
+} */
 
 .backgroundReset::placeholder {
   color: white;
@@ -52,4 +57,47 @@
   font-weight: 900;
   color: black;
   padding: 0.5vw;
+}
+
+.startButton {
+  padding: 0.4vw 3vw;
+  background: green;
+  border: none;
+  font-size: 1vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8vw;
+}
+
+.resetButton {
+  background: gray;
+  padding: 0.4vw 3vw;
+  border: none;
+  font-size: 1vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8vw;
+}
+
+.engineControl {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconSize {
+  width: 0.8vw;
+}
+
+.controlBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
